@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Battambang&family=Poppins:wght@400;700&family=Raleway:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+    <div class="vidoe">
+        <video autoplay muted loop preload="auto" class="full-screen__video">
+            <source type="video/mp4" src="./video/video-converter.mp4">
+            <source type="video/webm" src="./video/video.mp4">
+        </video>
+    </div>
+
+
+
+
+    <div class="sidebar">
+        <!-- logo and burger -->
+        <div class="sidebar__logo">
+            <div class="burger">
+                <div class="burger__item"></div>
+                <div class="burger__item"></div>
+            </div>
+
+            <div class="logo">
+                <img src="./images/Logo.svg" alt="Logo">
+            </div>
+        </div>
+
+        <!-- team -->
+        <ul class="team">
+
+            <div class="team__search-container">
+                <form class="team__form" action="/action_page.php">
+                    <input class="team__input" type="text" placeholder="Enter a name">
+                    <img class="team__search" src="./images/icon/Vector-search.svg" alt="search">
+                </form>
+            </div>
+
+            <li class="team__item">
+                <img class="team__img" src="./images/team/Ellipse 5-1.svg" alt="team first person">
+                <p class="team__text">Frank Sinatra</p>
+            </li>
+            <li class="team__item">
+                <img class="team__img" src="./images/team/Ellipse 5-2.svg" alt="team first person">
+                <p class="team__text">Harvey Specter</p>
+            </li>
+            <li class="team__item">
+                <img class="team__img" src="./images/team/Ellipse 5-3.svg" alt="team first person">
+                <p class="team__text">Tony Stark</p>
+            </li>
+            <li class="team__item">
+                <img class="team__img" src="./images/team/elliipse 4.svg" alt="team first person">
+                <p class="team__text">Jordan Peterson</p>
+            </li>
+            <li class="team__item">
+                <img class="team__img" src="./images/team/Ellipse 5.svg" alt="team first person">
+                <p class="team__text">Steve Rogers</p>
+            </li>
+            <li class="team__item-add">
+                <a href="#"><img class="team__add" src="./images/naw/Group 3678.svg" alt="team add">
+                    <p class="team__add-text">Add New Contact</p>
+                </a>
+            </li>
+        </ul>
+        <!-- help -->
+        <div class="sidebar__help">
+            <a class="help" href="#">
+                <img class="help-icon" src="./images/icon/help 1.svg" alt="help">
+                <p class="help-text">Help</p>
+            </a>
+        </div>
+        <div class="dark-theme">
+            <p>Dark theme</p>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+
+    <main class="main">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-search">
+                <form class="search">
+                    <img class="search__icon" src="./images/icon/Vector-search.svg" alt="search">
+                    <input class="search__input" type="text" placeholder="What are you looking for?">
+                </form>
+            </div>
+            <div class="profile-owner">
+                <img src="./images/Profile photo.svg" alt="profile photo">
+                <p class="owner-text">Frank Sinatra</p>
+            </div>
+        </header>
+        <!-- LIST MENU -->
+
+        <div class="list">
+            <ul class="list__menu">
+                <p class="topic">Your Topics</p>
+                <li class="list__menu-item">
+                    <img src="./images/icon/Vector.svg" alt="">
+                    <h1 class="menu">My Past</h1>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
