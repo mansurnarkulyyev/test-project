@@ -356,7 +356,7 @@ input:checked + .slider:before {
   width: 35px;
   height: 35px;
   float: right;
-  margin-top: 3px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -442,6 +442,9 @@ input:checked + .slider:before {
   width: 275px;
   margin-top: 20px;
 }
+.button:hover{
+  background: #6a28f4
+}
 
 .button-text{
   font-family: 'Raleway';
@@ -450,4 +453,8 @@ input:checked + .slider:before {
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
+}
+
+.button-img{
+  padding-right: 10px;
 }
